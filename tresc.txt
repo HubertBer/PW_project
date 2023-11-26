@@ -1,0 +1,12 @@
+Wyprzedaż
+W pewnym (znanym z zadania “Neon”) centrum handlowym trwa właśnie dzień wyprzedaży – żal byłoby nie skorzystać z takiej okazji! Możesz odwiedzić N sklepów, przy czym każdy z nich ma własne godziny otwarcia, a naraz możesz (niestety) przebywać tylko w jednym...
+
+Jeśli trafisz do sklepu numer j, zakupisz towary za cj złotych, spędzając tam dokładnie jedną jednostkę czasu. Przyjmujemy, że podczas tych odwiedzin kupujesz wszystkie interesujące Cię towary i ponowne odwiedzenie tego samego sklepu nie ma sensu. Oblicz, ile najwięcej pieniędzy możesz dzisiaj wydać.
+
+Wejście
+Pierwsza linia wejścia zawiera liczbę całkowitą z (1≤z≤2∗10^9) – liczbę zestawów danych, których opisy występują kolejno po sobie. Opis jednego zestawu jest następujący:
+
+Pierwszy wiersz każdego zestawu zawiera jedną liczbę naturalną N (0≤N≤5000) – liczbę sklepów. Każdy z następnych N wierszy zawiera trzy liczby naturalne li,ri,ci (−10^9≤li<ri≤10^9, 0≤ci≤10^5) – odpowiednio godzinę otwarcia, zamknięcia i kwotę wydaną w i-tym sklepie.
+
+Wyjście
+Dla każdego zestawu należy wypisać jedną liczbę całkowitą – maksymalną sumę pieniędzy wydaną w centrum.
