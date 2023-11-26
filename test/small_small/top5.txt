@@ -1,0 +1,6 @@
+Top 5:
+womp3t: 254.73 ms
+womp2t: 301.33 ms
+wpf_2_6_1t: 421.8 ms
+wpf_3_3_0t: 422.23 ms
+wpf_2_3_0t: 436.49 ms
