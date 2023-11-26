@@ -8,9 +8,6 @@
 #include <iomanip>
 using namespace std;
 
-int THREADS_NUM = 4;
-int LOG2_THREADS_NUM = 2;
-
 struct segment{
     int l;
     int r;
@@ -82,17 +79,7 @@ void case1(){
 
 
     vector<bool> taken(n, false);
-    // vector<vector<bool>> mask(THREADS_NUM, vector<bool>(LOG2_THREADS_NUM, false));
-    // for(int k = 1; k < THREADS_NUM; ++k)
-    //     for(int j = 0; j < LOG2_THREADS_NUM; ++j)
-    //         if((k >> j)&1)mask[k][LOG2_THREADS_NUM - 1 - j] = true;
-    
     int takenCount = 0;    
-    // vector<vector<unsigned char>> canDo(n, vector<unsigned char>(THREADS_NUM, 0));
-    // bool canDo[n][THREADS_NUM];
-
-    // int i = 0;
-    // thread threads[THREADS_NUM];
 
     for(int i = 0; i < n; ++i){
         taken[i] = true;

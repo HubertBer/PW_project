@@ -11,8 +11,6 @@ using namespace std;
 
 int THREADS_NUM = 8;
 int LOG2_THREADS_NUM  = 3;
-int PEEK_THREADS_NUM  = 3;
-int FAITH_THREADS_NUM = 3;
 
 struct segment{
     int l;
@@ -152,10 +150,8 @@ void case1(){
 
 int main(int argc, char* argv[]){
     if(argc > 1) LOG2_THREADS_NUM = atoi(argv[1]);
-    if(argc > 2) PEEK_THREADS_NUM = atoi(argv[2]);
-    if(argc > 3) FAITH_THREADS_NUM = atoi(argv[3]);
-    
     if(argc > 1) THREADS_NUM = 1 << LOG2_THREADS_NUM;
+    
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     int z = 1;

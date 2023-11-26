@@ -8,10 +8,10 @@
 #include <iomanip>
 using namespace std;
 
-int THREADS_NUM = 8;
-int LOG2_THREADS_NUM  = 3;
-int PEEK_THREADS_NUM  = 3;
-int FAITH_THREADS_NUM = 3;
+int THREADS_NUM = 4;
+int LOG2_THREADS_NUM  = 2;
+int PEEK_THREADS_NUM  = 5;
+int FAITH_THREADS_NUM = 4;
 
 struct segment{
     int l;
